@@ -1,0 +1,13 @@
+#Git Notes
+
+#Basic push to repo
+git add [filename]; git commit -m "description"
+git push -u origin master
+
+#Helpful commmands
+git log
+git status
+
+#New remote repo
+git init
+git remote add origin [url]

@@ -1,0 +1,24 @@
+#list all sub Dir
+alias lsR='ls -R'
+
+#list all with time stamps
+alias lsa='ls -lart'
+
+#long list all
+alias ll='ls -lA'
+
+#cd to home  
+alias home='cd ~/'
+
+#cd back dirs
+alias ..='cd ..'
+alias ...='cd ..'
+
+#copy dir  
+alias cpd='cp -ri'
+
+#delete dir  
+alias rmd='rm -ri'
+
+#open bashrc 
+alias bashrc='vi .bashrc'
