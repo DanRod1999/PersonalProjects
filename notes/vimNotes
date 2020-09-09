@@ -1,0 +1,147 @@
+###############################
+# Vim shortcut commands
+#
+#
+###############################
+
+
+# write and exit 
+:wq 
+:x 
+
+# move through screen 
+H -  top 
+M -  middle 
+L -  bottom 
+
+# move through file 
+zz -  make current position center of screen 
+Ctrl + e -  move screen down without moving cursor 
+Ctrl + y -  move screen up without moving cursor 
+Ctrl + b -  move back one full screen 
+Ctrl + f -  move forward one full screen 
+Ctrl + d -  move down half screen 
+Ctrl + u -  move up half screen 
+
+# jump to words  
+w -  beginning of next word 
+W -  beginning of next string of characters 
+e -  end of next word 
+E -  end of string of next characters 
+b -  beginning of prev word 
+B -  beginning of prev string of characters
+
+# jump lines paragraphs functions ect 
+% -  move to matching bracket, brace, parenthesis, ect 
+0 -  start of line 
+^ -  first non space character in line 
+& - $ end of line 
+} -  jump to next function/paragraph 
+{ -  jump to prev function/paragraph 
+
+# go to's 
+g_ -  go to last non space character 
+gg -  go to first line 
+G -  go to last line in file 
+[line num]G -  go to line num 
+
+# jumps (not that useful) 
+f[char] - jump to next occurrence of character in line 
+F[char] -  jump to prev occurrence of character in line 
+t[char] -  jump to space before next occurrence of character in line 
+T[char] -  jump to space before prev occurrence of character in line 
+; -  repeat forward 
+, -  repeat backwards 
+
+# inserting text 
+i-  insert 
+I -  insert beginning of line 
+a - append 
+A -  append end of line 
+o -  open new line below 
+O -  open new line above 
+ea -  append at end of word 
+
+# while in insert mode 
+Ctrl + h -  delete char before 
+Ctrl + w -  delete word before 
+Ctrl + d -  back tab 
+Ctrl + n -  auto complete next match 
+Ctrl + p -  auto complete prev match 
+
+# editing 
+r -  replace character 
+J -  join line with next 
+gwip -  reflow paragraph 
+cc -  replace line 
+C -  replace line from cursor to end of line 
+ciw -  replace word 
+cw - replace word from cursor to end of word 
+s -  delete character and insert text 
+u -  undo 
+. -  repeat last command 
+Ctrl + r -  redo 
+
+# cut and paste 
+yy -  copy line 
+yw -  copy word 
+y$ - copy to end of line 
+p-  paste after cursor 
+P -  past before 
+dd -  cut line 
+dw -  cut word 
+D -  cut end of line 
+x -  cut character 
+
+# indents 
+>> -  indent 
+<< -  unindent 
+=% -  re indent block 
+[num]== indent num lines 
+=i{ -  fix indents 
+
+#visual mode 
+v -  enter visual mode 
+V -  linewise visual mode 
+Ctrl + v -  block visual mode 
+o -  toggle cursor position 
+O -  toggle in block mode 
+aw -  mark word 
+a(  -  highlight () 
+a{ -  highlight {} 
+at -  highlight <> 
+i( -  highlight between () 
+i{ -  highlight between {} 
+it -  highlight between <> 
+
+# visual Commands 
+< -  shift left 
+> -  shift right 
+y -  copy text 
+d - delete text 
+u - make lower 
+U -  make upper 
+
+# searching 
+/[text] -  search text 
+\v[text] -  regex search 
+n -  next 
+N -  prev 
+:%s/[old]/[new]/g -  replace old with new 
+:%s/[old]/[new]/gc -  replace but with confirmation 
+
+# tabs 
+:tabnew 
+gt -  next tab 
+gT -  prev tab 
+[num]gt -  go to num tab 
+:tabc -  close tab 
+:tabo -  close all but current tab
+
+# folds
+:[start],[end]fo -  create fold from start to end 
+za -  toggle fold
+zd -  delete fold
+
+# windows 
+:vsplit [file] -  split vertical
