@@ -98,6 +98,8 @@ alias lsR='ls -R'
 alias lsa='ls -lart'
 #long list all
 alias ll='ls -lA'
+#list all
+alias la='ls -a'
 #cd to home
 alias home='cd ~/'
 #cd back dirs
@@ -109,7 +111,10 @@ alias cpd='cp -ri'
 alias rmd='rm -ri'
 #open bashrc
 alias bashrc='cd ~/; vi .bashrc'
-
+#quick exit
+alias q='exit'
+#quick notes
+alias notes='cd ~/selfStudy/notes'
 
 #list after cd
 function cdl () {
