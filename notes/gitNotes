@@ -11,3 +11,7 @@ git status
 #New remote repo
 git init
 git remote add origin [url]
+
+#Undo commit and add
+git reset --soft HEAD~1
+git reset [filename]
