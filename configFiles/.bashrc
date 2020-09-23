@@ -115,6 +115,8 @@ alias bashrc='cd ~/; vi .bashrc'
 alias q='exit'
 #quick notes
 alias notes='cd ~/selfStudy/notes'
+#python3 as defualt
+alias python='python3'
 
 #list after cd
 function cdl () {
