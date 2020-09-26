@@ -5,3 +5,9 @@ Host office
 Host tux
 	HostName tux.cs.drexel.edu
 	User dmr379
+Host xunil5
+	HostName xunil-05.coe.drexel.edu
+	User dmr379
+Host xunil3
+	HostName xunil-03.coe.drexel.edu
+	User dmr379
