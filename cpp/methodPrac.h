@@ -18,7 +18,7 @@ class Card {
 
         string suit; 
 
-        string value' 
+        string value; 
 
         bool inDeck; 
 
